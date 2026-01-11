@@ -26,6 +26,11 @@ config.keys = {
       direction = 'Down',
     },
   },
+  {
+    key = 'w',
+    mods = 'CTRL',
+    action = wezterm.action.CloseCurrentPane { confirm = true },
+  },
 }
 
 return config
