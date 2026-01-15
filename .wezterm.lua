@@ -33,4 +33,9 @@ config.keys = {
   },
 }
 
+-- Set a static title for the window
+wezterm.on('format-window-title', function(tab, pane, tabs, panes, config)
+  return 'WezTerm'
+end)
+
 return config
