@@ -37,3 +37,6 @@ call npm i -g opencode-ai typescript typescript-language-server prettier
 REM Installing vlc
 winget install VideoLAN.VLC
 
+REM Installing lazygit
+winget install -e --id=JesseDuffield.lazygit
+
