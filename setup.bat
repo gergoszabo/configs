@@ -5,7 +5,7 @@ REM Copy .wezterm.lua to user home directory
 copy /Y ".wezterm.lua" "%USERPROFILE%\.wezterm.lua"
 
 REM Installing NVM
-winget install CoreyButtler.NVMforWindows
+winget install CoreyButler.NVMforWindows
 
 REM Node 24
 nvm i 24
